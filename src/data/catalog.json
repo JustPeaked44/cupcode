@@ -1,0 +1,1370 @@
+[
+  {
+    "id": "manual-24",
+    "field": "Decaf",
+    "category": "Decaf",
+    "code": "X",
+    "meaning": "Decaf",
+    "status": "active",
+    "sourceLine": 24
+  },
+  {
+    "id": "manual-25",
+    "field": "Decaf",
+    "category": "Decaf",
+    "code": "1/2",
+    "meaning": "Half Decaf",
+    "status": "active",
+    "sourceLine": 25
+  },
+  {
+    "id": "manual-33",
+    "field": "Shots",
+    "category": "Shots",
+    "code": "1",
+    "meaning": "Single",
+    "status": "active",
+    "sourceLine": 33
+  },
+  {
+    "id": "manual-34",
+    "field": "Shots",
+    "category": "Shots",
+    "code": "2",
+    "meaning": "Double",
+    "status": "active",
+    "sourceLine": 34
+  },
+  {
+    "id": "manual-35",
+    "field": "Shots",
+    "category": "Shots",
+    "code": "3",
+    "meaning": "Triple",
+    "status": "active",
+    "sourceLine": 35
+  },
+  {
+    "id": "manual-36",
+    "field": "Shots",
+    "category": "Shots",
+    "code": "4",
+    "meaning": "Quad",
+    "status": "active",
+    "sourceLine": 36
+  },
+  {
+    "id": "manual-37",
+    "field": "Shots",
+    "category": "Shots",
+    "code": "R",
+    "meaning": "Ristretto",
+    "status": "active",
+    "sourceLine": 37
+  },
+  {
+    "id": "manual-38",
+    "field": "Shots",
+    "category": "Shots",
+    "code": "L",
+    "meaning": "Lungo / Long Shot",
+    "status": "active",
+    "sourceLine": 38
+  },
+  {
+    "id": "manual-39",
+    "field": "Shots",
+    "category": "Shots",
+    "code": "FR",
+    "meaning": "Frappuccino Roast — note the total number of pumps",
+    "status": "active",
+    "sourceLine": 39
+  },
+  {
+    "id": "manual-40",
+    "field": "Shots",
+    "category": "Shots",
+    "code": "B",
+    "meaning": "Blonde",
+    "status": "active",
+    "sourceLine": 40
+  },
+  {
+    "id": "manual-49",
+    "field": "Syrup",
+    "category": "Syrup",
+    "code": "A",
+    "meaning": "Almond",
+    "status": "active",
+    "sourceLine": 49
+  },
+  {
+    "id": "manual-50",
+    "field": "Syrup",
+    "category": "Syrup",
+    "code": "BS",
+    "meaning": "Brown Sugar",
+    "status": "active",
+    "sourceLine": 50
+  },
+  {
+    "id": "manual-51",
+    "field": "Syrup",
+    "category": "Syrup",
+    "code": "C",
+    "meaning": "Caramel",
+    "status": "active",
+    "sourceLine": 51
+  },
+  {
+    "id": "manual-52",
+    "field": "Syrup",
+    "category": "Syrup",
+    "code": "CA",
+    "meaning": "Cascara",
+    "status": "active",
+    "sourceLine": 52
+  },
+  {
+    "id": "manual-53",
+    "field": "Syrup",
+    "category": "Syrup",
+    "code": "CH",
+    "meaning": "Chai Concentrate",
+    "status": "active",
+    "sourceLine": 53
+  },
+  {
+    "id": "manual-54",
+    "field": "Syrup",
+    "category": "Syrup",
+    "code": "H",
+    "meaning": "Hazelnut",
+    "status": "active",
+    "sourceLine": 54
+  },
+  {
+    "id": "manual-55",
+    "field": "Syrup",
+    "category": "Syrup",
+    "code": "R",
+    "meaning": "Raspberry",
+    "status": "active",
+    "sourceLine": 55
+  },
+  {
+    "id": "manual-56",
+    "field": "Syrup",
+    "category": "Syrup",
+    "code": "SC",
+    "meaning": "Salted Caramel",
+    "status": "active",
+    "sourceLine": 56
+  },
+  {
+    "id": "manual-57",
+    "field": "Syrup",
+    "category": "Syrup",
+    "code": "SU",
+    "meaning": "Sugar Cane",
+    "status": "active",
+    "sourceLine": 57
+  },
+  {
+    "id": "manual-58",
+    "field": "Syrup",
+    "category": "Syrup",
+    "code": "LS",
+    "meaning": "Less Sweet — see notation rule below",
+    "status": "active",
+    "sourceLine": 58
+  },
+  {
+    "id": "manual-59",
+    "field": "Syrup",
+    "category": "Syrup",
+    "code": "NS",
+    "meaning": "Not Sweet — see notation rule below",
+    "status": "active",
+    "sourceLine": 59
+  },
+  {
+    "id": "manual-78",
+    "field": "Syrup",
+    "category": "Sauce",
+    "code": "CAS",
+    "meaning": "Cascara Sauce",
+    "status": "active",
+    "sourceLine": 78
+  },
+  {
+    "id": "manual-79",
+    "field": "Syrup",
+    "category": "Sauce",
+    "code": "DCR",
+    "meaning": "Dark Caramel Sauce",
+    "status": "active",
+    "sourceLine": 79
+  },
+  {
+    "id": "manual-80",
+    "field": "Syrup",
+    "category": "Sauce",
+    "code": "DMO",
+    "meaning": "Dark Mocha Sauce",
+    "status": "active",
+    "sourceLine": 80
+  },
+  {
+    "id": "manual-81",
+    "field": "Syrup",
+    "category": "Sauce",
+    "code": "MO",
+    "meaning": "Mocha Sauce",
+    "status": "active",
+    "sourceLine": 81
+  },
+  {
+    "id": "manual-82",
+    "field": "Syrup",
+    "category": "Sauce",
+    "code": "WMO",
+    "meaning": "White Mocha Sauce",
+    "status": "active",
+    "sourceLine": 82
+  },
+  {
+    "id": "manual-83",
+    "field": "Syrup",
+    "category": "Sauce",
+    "code": "RGS",
+    "meaning": "Honey Red Grapefruit Sauce",
+    "status": "active",
+    "sourceLine": 83
+  },
+  {
+    "id": "manual-84",
+    "field": "Syrup",
+    "category": "Sauce",
+    "code": "ST",
+    "meaning": "Strawberry",
+    "status": "active",
+    "sourceLine": 84
+  },
+  {
+    "id": "manual-92",
+    "field": "Milk",
+    "category": "Milk",
+    "code": "N",
+    "meaning": "Nonfat / Skimmed",
+    "status": "active",
+    "sourceLine": 92
+  },
+  {
+    "id": "manual-93",
+    "field": "Milk",
+    "category": "Milk",
+    "code": "W",
+    "meaning": "Whole / Full Fat",
+    "status": "active",
+    "sourceLine": 93
+  },
+  {
+    "id": "manual-94",
+    "field": "Milk",
+    "category": "Milk",
+    "code": "S",
+    "meaning": "Soy",
+    "status": "active",
+    "sourceLine": 94
+  },
+  {
+    "id": "manual-95",
+    "field": "Milk",
+    "category": "Milk",
+    "code": "CO",
+    "meaning": "Coconut",
+    "status": "active",
+    "sourceLine": 95
+  },
+  {
+    "id": "manual-96",
+    "field": "Milk",
+    "category": "Milk",
+    "code": "A",
+    "meaning": "Almond",
+    "status": "active",
+    "sourceLine": 96
+  },
+  {
+    "id": "manual-97",
+    "field": "Milk",
+    "category": "Milk",
+    "code": "B",
+    "meaning": "Breve / Half-and-Half",
+    "status": "active",
+    "sourceLine": 97
+  },
+  {
+    "id": "manual-98",
+    "field": "Milk",
+    "category": "Milk",
+    "code": "HC",
+    "meaning": "Heavy Cream",
+    "status": "active",
+    "sourceLine": 98
+  },
+  {
+    "id": "manual-99",
+    "field": "Milk",
+    "category": "Milk",
+    "code": "%",
+    "meaning": "2% / Semi-Skimmed / Low-Fat / 50% Whole and 50% Nonfat",
+    "status": "active",
+    "sourceLine": 99
+  },
+  {
+    "id": "manual-100",
+    "field": "Milk",
+    "category": "Milk",
+    "code": "O",
+    "meaning": "Oatmilk",
+    "status": "active",
+    "sourceLine": 100
+  },
+  {
+    "id": "manual-108",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "AFF",
+    "meaning": "Affogato Style",
+    "status": "active",
+    "sourceLine": 108
+  },
+  {
+    "id": "manual-109",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "BLx2",
+    "meaning": "Double-Blended",
+    "status": "active",
+    "sourceLine": 109
+  },
+  {
+    "id": "manual-110",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "BWC",
+    "meaning": "Blended Whipped Cream",
+    "status": "active",
+    "sourceLine": 110
+  },
+  {
+    "id": "manual-111",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "CF",
+    "meaning": "Cold Foam",
+    "status": "active",
+    "sourceLine": 111
+  },
+  {
+    "id": "manual-112",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "CHP",
+    "meaning": "Chocolate Powder",
+    "status": "active",
+    "sourceLine": 112
+  },
+  {
+    "id": "manual-113",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "CNP",
+    "meaning": "Cinnamon Powder",
+    "status": "active",
+    "sourceLine": 113
+  },
+  {
+    "id": "manual-114",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "CR",
+    "meaning": "Caramel Sauce (as topping)",
+    "status": "active",
+    "sourceLine": 114
+  },
+  {
+    "id": "manual-115",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "CHIP",
+    "meaning": "Frappuccino Chips",
+    "status": "active",
+    "sourceLine": 115
+  },
+  {
+    "id": "manual-116",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "CJ",
+    "meaning": "Coffee Jelly",
+    "status": "active",
+    "sourceLine": 116
+  },
+  {
+    "id": "manual-117",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "D",
+    "meaning": "Dry",
+    "status": "active",
+    "sourceLine": 117
+  },
+  {
+    "id": "manual-118",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "F",
+    "meaning": "Foam",
+    "status": "active",
+    "sourceLine": 118
+  },
+  {
+    "id": "manual-119",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "H2O",
+    "meaning": "Water",
+    "status": "active",
+    "sourceLine": 119
+  },
+  {
+    "id": "manual-120",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "HN",
+    "meaning": "Honey",
+    "status": "active",
+    "sourceLine": 120
+  },
+  {
+    "id": "manual-121",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "ICE",
+    "meaning": "Ice",
+    "status": "active",
+    "sourceLine": 121
+  },
+  {
+    "id": "manual-122",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "K",
+    "meaning": "Kid's Beverage",
+    "status": "active",
+    "sourceLine": 122
+  },
+  {
+    "id": "manual-123",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "Lt",
+    "meaning": "Light — placed before another code",
+    "status": "active",
+    "sourceLine": 123
+  },
+  {
+    "id": "manual-124",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "LM",
+    "meaning": "Lemonade",
+    "status": "active",
+    "sourceLine": 124
+  },
+  {
+    "id": "manual-125",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "MO",
+    "meaning": "Mocha Sauce (as topping)",
+    "status": "active",
+    "sourceLine": 125
+  },
+  {
+    "id": "manual-126",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "NUT",
+    "meaning": "Nutmeg",
+    "status": "active",
+    "sourceLine": 126
+  },
+  {
+    "id": "manual-127",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "PM",
+    "meaning": "Pure Matcha",
+    "status": "active",
+    "sourceLine": 127
+  },
+  {
+    "id": "manual-128",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "POM",
+    "meaning": "Pomegranate Pearls",
+    "status": "active",
+    "sourceLine": 128
+  },
+  {
+    "id": "manual-129",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "RM",
+    "meaning": "Room",
+    "status": "active",
+    "sourceLine": 129
+  },
+  {
+    "id": "manual-130",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "SP",
+    "meaning": "Splenda",
+    "status": "active",
+    "sourceLine": 130
+  },
+  {
+    "id": "manual-131",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "SR",
+    "meaning": "Sugar in the Raw",
+    "status": "active",
+    "sourceLine": 131
+  },
+  {
+    "id": "manual-132",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "STIR",
+    "meaning": "Stirred",
+    "status": "active",
+    "sourceLine": 132
+  },
+  {
+    "id": "manual-133",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "WS",
+    "meaning": "White Sugar",
+    "status": "active",
+    "sourceLine": 133
+  },
+  {
+    "id": "manual-134",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "BS",
+    "meaning": "Brown Sugar",
+    "status": "active",
+    "sourceLine": 134
+  },
+  {
+    "id": "manual-135",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "COS",
+    "meaning": "Coconut Sugar",
+    "status": "active",
+    "sourceLine": 135
+  },
+  {
+    "id": "manual-136",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "TOP",
+    "meaning": "No Topping",
+    "status": "crossed-out",
+    "sourceLine": 136
+  },
+  {
+    "id": "manual-137",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "U",
+    "meaning": "Upside-Down",
+    "status": "active",
+    "sourceLine": 137
+  },
+  {
+    "id": "manual-138",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "VB",
+    "meaning": "Vanilla Bean Powder",
+    "status": "active",
+    "sourceLine": 138
+  },
+  {
+    "id": "manual-139",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "VSC",
+    "meaning": "Vanilla Sweet Cream",
+    "status": "active",
+    "sourceLine": 139
+  },
+  {
+    "id": "manual-140",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "VP",
+    "meaning": "Vanilla Powder (condiment bar)",
+    "status": "active",
+    "sourceLine": 140
+  },
+  {
+    "id": "manual-141",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "W",
+    "meaning": "Wet",
+    "status": "active",
+    "sourceLine": 141
+  },
+  {
+    "id": "manual-142",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "WC",
+    "meaning": "Whipped Cream",
+    "status": "active",
+    "sourceLine": 142
+  },
+  {
+    "id": "manual-143",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "WC",
+    "meaning": "No Whipped Cream",
+    "status": "crossed-out",
+    "sourceLine": 143
+  },
+  {
+    "id": "manual-144",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "X",
+    "meaning": "Extra — placed before another code",
+    "status": "active",
+    "sourceLine": 144
+  },
+  {
+    "id": "manual-145",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "XH",
+    "meaning": "Extra Hot",
+    "status": "active",
+    "sourceLine": 145
+  },
+  {
+    "id": "manual-146",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "/",
+    "meaning": "No — placed over another code",
+    "status": "active",
+    "sourceLine": 146
+  },
+  {
+    "id": "manual-147",
+    "field": "Custom",
+    "category": "Custom",
+    "code": "=",
+    "meaning": "Equal",
+    "status": "active",
+    "sourceLine": 147
+  },
+  {
+    "id": "manual-164",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "BC",
+    "meaning": "Brewed Coffee",
+    "status": "active",
+    "sourceLine": 164
+  },
+  {
+    "id": "manual-165",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "MIS",
+    "meaning": "Caffè Misto",
+    "status": "active",
+    "sourceLine": 165
+  },
+  {
+    "id": "manual-166",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "CBC",
+    "meaning": "Clover Brewed Coffee",
+    "status": "active",
+    "sourceLine": 166
+  },
+  {
+    "id": "manual-167",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "ICBC",
+    "meaning": "Iced Clover Brewed Coffee",
+    "status": "active",
+    "sourceLine": 167
+  },
+  {
+    "id": "manual-168",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "CBIC",
+    "meaning": "Cold Brew Iced Coffee",
+    "status": "active",
+    "sourceLine": 168
+  },
+  {
+    "id": "manual-169",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "A",
+    "meaning": "Caffè Americano",
+    "status": "active",
+    "sourceLine": 169
+  },
+  {
+    "id": "manual-170",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "L",
+    "meaning": "Caffè Latte",
+    "status": "active",
+    "sourceLine": 170
+  },
+  {
+    "id": "manual-171",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "M",
+    "meaning": "Caffè Mocha",
+    "status": "active",
+    "sourceLine": 171
+  },
+  {
+    "id": "manual-172",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "WM",
+    "meaning": "White Chocolate Mocha",
+    "status": "active",
+    "sourceLine": 172
+  },
+  {
+    "id": "manual-173",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "C",
+    "meaning": "Cappuccino",
+    "status": "active",
+    "sourceLine": 173
+  },
+  {
+    "id": "manual-174",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "E",
+    "meaning": "Espresso",
+    "status": "active",
+    "sourceLine": 174
+  },
+  {
+    "id": "manual-175",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "CH",
+    "meaning": "Teavana Chai Tea Latte",
+    "status": "active",
+    "sourceLine": 175
+  },
+  {
+    "id": "manual-176",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "T",
+    "meaning": "Teavana Hot Tea",
+    "status": "active",
+    "sourceLine": 176
+  },
+  {
+    "id": "manual-177",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "FLT",
+    "meaning": "Iced Full-Leaf Tea",
+    "status": "active",
+    "sourceLine": 177
+  },
+  {
+    "id": "manual-178",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "PML",
+    "meaning": "Pure Matcha Latte",
+    "status": "active",
+    "sourceLine": 178
+  },
+  {
+    "id": "manual-179",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "CH",
+    "meaning": "Teavana Chai Tea Latte",
+    "status": "active",
+    "sourceLine": 179
+  },
+  {
+    "id": "manual-180",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "EBTL",
+    "meaning": "English Breakfast Tea Latte",
+    "status": "active",
+    "sourceLine": 180
+  },
+  {
+    "id": "manual-181",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "BLTL",
+    "meaning": "Black Tea Latte",
+    "status": "active",
+    "sourceLine": 181
+  },
+  {
+    "id": "manual-182",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "PMEF",
+    "meaning": "Pure Matcha and Espresso Fusion",
+    "status": "active",
+    "sourceLine": 182
+  },
+  {
+    "id": "manual-183",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "NCB",
+    "meaning": "Nitro Cold Brew",
+    "status": "active",
+    "sourceLine": 183
+  },
+  {
+    "id": "manual-184",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "VSCCB",
+    "meaning": "Vanilla Sweet Cream Cold Brew",
+    "status": "active",
+    "sourceLine": 184
+  },
+  {
+    "id": "manual-185",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "VSCN",
+    "meaning": "Vanilla Sweet Cream Nitro",
+    "status": "active",
+    "sourceLine": 185
+  },
+  {
+    "id": "manual-186",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "DCCFN",
+    "meaning": "Dark Caramel Cold Foam Nitro",
+    "status": "active",
+    "sourceLine": 186
+  },
+  {
+    "id": "manual-187",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "SCCB",
+    "meaning": "Salted Caramel Cold Brew",
+    "status": "active",
+    "sourceLine": 187
+  },
+  {
+    "id": "manual-188",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "HRGCB",
+    "meaning": "Honey Ruby Grapefruit Cold Brew",
+    "status": "active",
+    "sourceLine": 188
+  },
+  {
+    "id": "manual-189",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "ECP",
+    "meaning": "Espresso con Panna",
+    "status": "active",
+    "sourceLine": 189
+  },
+  {
+    "id": "manual-190",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "EM",
+    "meaning": "Espresso Macchiato",
+    "status": "active",
+    "sourceLine": 190
+  },
+  {
+    "id": "manual-191",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "CFIE",
+    "meaning": "Cold Foam Iced Espresso",
+    "status": "active",
+    "sourceLine": 191
+  },
+  {
+    "id": "manual-192",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "FW",
+    "meaning": "Flat White",
+    "status": "active",
+    "sourceLine": 192
+  },
+  {
+    "id": "manual-193",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "CM",
+    "meaning": "Caramel Macchiato",
+    "status": "active",
+    "sourceLine": 193
+  },
+  {
+    "id": "manual-194",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "HMM",
+    "meaning": "Hazelnut Mocha Macchiato",
+    "status": "active",
+    "sourceLine": 194
+  },
+  {
+    "id": "manual-195",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "HC",
+    "meaning": "Classic Hot Chocolate",
+    "status": "active",
+    "sourceLine": 195
+  },
+  {
+    "id": "manual-196",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "WHC",
+    "meaning": "White Hot Chocolate",
+    "status": "active",
+    "sourceLine": 196
+  },
+  {
+    "id": "manual-197",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "SHC",
+    "meaning": "Signature Hot Chocolate",
+    "status": "active",
+    "sourceLine": 197
+  },
+  {
+    "id": "manual-198",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "CHM",
+    "meaning": "Chocolate Milk",
+    "status": "active",
+    "sourceLine": 198
+  },
+  {
+    "id": "manual-199",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "SCR",
+    "meaning": "Syrup Cream",
+    "status": "active",
+    "sourceLine": 199
+  },
+  {
+    "id": "manual-200",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "VCR",
+    "meaning": "Vanilla Cream",
+    "status": "active",
+    "sourceLine": 200
+  },
+  {
+    "id": "manual-201",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "SM",
+    "meaning": "Steamed Milk",
+    "status": "active",
+    "sourceLine": 201
+  },
+  {
+    "id": "manual-202",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "MILK",
+    "meaning": "Milk",
+    "status": "active",
+    "sourceLine": 202
+  },
+  {
+    "id": "manual-203",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "BSISE",
+    "meaning": "Brown Sugar Soymilk Iced Shaken Espresso",
+    "status": "active",
+    "sourceLine": 203
+  },
+  {
+    "id": "manual-204",
+    "field": "Drink",
+    "category": "Hot and Cold Beverages",
+    "code": "SCSISE",
+    "meaning": "Salted Caramel Soymilk Iced Shaken Espresso",
+    "status": "active",
+    "sourceLine": 204
+  },
+  {
+    "id": "manual-233",
+    "field": "Drink",
+    "category": "Frappuccino Blended Coffee",
+    "code": "CF",
+    "meaning": "Coffee",
+    "status": "active",
+    "sourceLine": 233
+  },
+  {
+    "id": "manual-234",
+    "field": "Drink",
+    "category": "Frappuccino Blended Coffee",
+    "code": "CRF",
+    "meaning": "Caramel",
+    "status": "active",
+    "sourceLine": 234
+  },
+  {
+    "id": "manual-235",
+    "field": "Drink",
+    "category": "Frappuccino Blended Coffee",
+    "code": "JF",
+    "meaning": "Java Chip",
+    "status": "active",
+    "sourceLine": 235
+  },
+  {
+    "id": "manual-236",
+    "field": "Drink",
+    "category": "Frappuccino Blended Coffee",
+    "code": "EF",
+    "meaning": "Espresso",
+    "status": "active",
+    "sourceLine": 236
+  },
+  {
+    "id": "manual-237",
+    "field": "Drink",
+    "category": "Frappuccino Blended Coffee",
+    "code": "MF",
+    "meaning": "Mocha",
+    "status": "active",
+    "sourceLine": 237
+  },
+  {
+    "id": "manual-238",
+    "field": "Drink",
+    "category": "Frappuccino Blended Coffee",
+    "code": "WMF",
+    "meaning": "White Chocolate Mocha",
+    "status": "active",
+    "sourceLine": 238
+  },
+  {
+    "id": "manual-239",
+    "field": "Drink",
+    "category": "Frappuccino Blended Coffee",
+    "code": "DCRF",
+    "meaning": "Dark Caramel",
+    "status": "active",
+    "sourceLine": 239
+  },
+  {
+    "id": "manual-240",
+    "field": "Drink",
+    "category": "Frappuccino Blended Coffee",
+    "code": "TMF",
+    "meaning": "Triple Mocha",
+    "status": "active",
+    "sourceLine": 240
+  },
+  {
+    "id": "manual-241",
+    "field": "Drink",
+    "category": "Frappuccino Blended Coffee",
+    "code": "CJF",
+    "meaning": "Coffee Jelly",
+    "status": "active",
+    "sourceLine": 241
+  },
+  {
+    "id": "manual-242",
+    "field": "Drink",
+    "category": "Frappuccino Blended Coffee",
+    "code": "DMF",
+    "meaning": "Dark Mocha",
+    "status": "active",
+    "sourceLine": 242
+  },
+  {
+    "id": "manual-251",
+    "field": "Drink",
+    "category": "Frappuccino Blended Cream",
+    "code": "CHCF",
+    "meaning": "Chai Cream",
+    "status": "active",
+    "sourceLine": 251
+  },
+  {
+    "id": "manual-252",
+    "field": "Drink",
+    "category": "Frappuccino Blended Cream",
+    "code": "CRCF",
+    "meaning": "Caramel Cream",
+    "status": "active",
+    "sourceLine": 252
+  },
+  {
+    "id": "manual-253",
+    "field": "Drink",
+    "category": "Frappuccino Blended Cream",
+    "code": "PMCF",
+    "meaning": "Pure Matcha Cream Frappuccino",
+    "status": "active",
+    "sourceLine": 253
+  },
+  {
+    "id": "manual-254",
+    "field": "Drink",
+    "category": "Frappuccino Blended Cream",
+    "code": "VCF",
+    "meaning": "Vanilla Cream",
+    "status": "active",
+    "sourceLine": 254
+  },
+  {
+    "id": "manual-255",
+    "field": "Drink",
+    "category": "Frappuccino Blended Cream",
+    "code": "MOCF",
+    "meaning": "Chocolate Cream",
+    "status": "active",
+    "sourceLine": 255
+  },
+  {
+    "id": "manual-256",
+    "field": "Drink",
+    "category": "Frappuccino Blended Cream",
+    "code": "WCCF",
+    "meaning": "White Chocolate Cream",
+    "status": "active",
+    "sourceLine": 256
+  },
+  {
+    "id": "manual-257",
+    "field": "Drink",
+    "category": "Frappuccino Blended Cream",
+    "code": "DCRCF",
+    "meaning": "Dark Caramel Cream",
+    "status": "active",
+    "sourceLine": 257
+  },
+  {
+    "id": "manual-258",
+    "field": "Drink",
+    "category": "Frappuccino Blended Cream",
+    "code": "TMCF",
+    "meaning": "Triple Mocha Cream",
+    "status": "active",
+    "sourceLine": 258
+  },
+  {
+    "id": "manual-259",
+    "field": "Drink",
+    "category": "Frappuccino Blended Cream",
+    "code": "STCF",
+    "meaning": "Strawberries and Cream",
+    "status": "active",
+    "sourceLine": 259
+  },
+  {
+    "id": "manual-260",
+    "field": "Drink",
+    "category": "Frappuccino Blended Cream",
+    "code": "MOCCF",
+    "meaning": "Chocolate Chip Cream",
+    "status": "active",
+    "sourceLine": 260
+  },
+  {
+    "id": "manual-269",
+    "field": "Drink",
+    "category": "Teavana Shaken Iced Teas",
+    "code": "HT",
+    "meaning": "Shaken Iced Hibiscus Tea",
+    "status": "active",
+    "sourceLine": 269
+  },
+  {
+    "id": "manual-270",
+    "field": "Drink",
+    "category": "Teavana Shaken Iced Teas",
+    "code": "OT",
+    "meaning": "Shaken Iced Zen Clouds Oolong Tea",
+    "status": "active",
+    "sourceLine": 270
+  },
+  {
+    "id": "manual-271",
+    "field": "Drink",
+    "category": "Teavana Shaken Iced Teas",
+    "code": "GT",
+    "meaning": "Shaken Iced Green Tea",
+    "status": "active",
+    "sourceLine": 271
+  },
+  {
+    "id": "manual-272",
+    "field": "Drink",
+    "category": "Teavana Shaken Iced Teas",
+    "code": "BT",
+    "meaning": "Shaken Iced Black Tea",
+    "status": "active",
+    "sourceLine": 272
+  },
+  {
+    "id": "manual-273",
+    "field": "Drink",
+    "category": "Teavana Shaken Iced Teas",
+    "code": "BTG",
+    "meaning": "Shaken Iced Black Tea with Ruby Grapefruit and Honey",
+    "status": "active",
+    "sourceLine": 273
+  },
+  {
+    "id": "manual-274",
+    "field": "Drink",
+    "category": "Teavana Shaken Iced Teas",
+    "code": "HTP",
+    "meaning": "Shaken Iced Hibiscus Tea with Pomegranate Pearls",
+    "status": "active",
+    "sourceLine": 274
+  },
+  {
+    "id": "manual-285",
+    "field": "Drink",
+    "category": "Starbucks Refreshers",
+    "code": "PDR",
+    "meaning": "Pink Drink with Strawberry Açaí",
+    "status": "active",
+    "sourceLine": 285
+  },
+  {
+    "id": "manual-286",
+    "field": "Drink",
+    "category": "Starbucks Refreshers",
+    "code": "SAR",
+    "meaning": "Strawberry Açaí with Lemonade",
+    "status": "active",
+    "sourceLine": 286
+  },
+  {
+    "id": "manual-287",
+    "field": "Drink",
+    "category": "Starbucks Refreshers",
+    "code": "MDR",
+    "meaning": "Mango Dragonfruit with Lemonade",
+    "status": "active",
+    "sourceLine": 287
+  },
+  {
+    "id": "manual-288",
+    "field": "Drink",
+    "category": "Starbucks Refreshers",
+    "code": "DMDR",
+    "meaning": "Dragon Drink with Mango Dragonfruit",
+    "status": "active",
+    "sourceLine": 288
+  },
+  {
+    "id": "manual-289",
+    "field": "Drink",
+    "category": "Starbucks Refreshers",
+    "code": "FPDR",
+    "meaning": "Frozen Pink Drink with Strawberry Açaí",
+    "status": "active",
+    "sourceLine": 289
+  },
+  {
+    "id": "manual-290",
+    "field": "Drink",
+    "category": "Starbucks Refreshers",
+    "code": "FSAR",
+    "meaning": "Frozen Strawberry Açaí Lemonade",
+    "status": "active",
+    "sourceLine": 290
+  },
+  {
+    "id": "manual-291",
+    "field": "Drink",
+    "category": "Starbucks Refreshers",
+    "code": "FMDR",
+    "meaning": "Frozen Mango Dragonfruit Lemonade",
+    "status": "active",
+    "sourceLine": 291
+  },
+  {
+    "id": "manual-292",
+    "field": "Drink",
+    "category": "Starbucks Refreshers",
+    "code": "FDDR",
+    "meaning": "Frozen Dragon Drink with Mango Dragonfruit",
+    "status": "active",
+    "sourceLine": 292
+  }
+]

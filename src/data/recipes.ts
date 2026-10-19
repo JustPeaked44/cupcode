@@ -1,0 +1,237 @@
+import type { Modification, Recipe } from "../domain/types";
+import { lookup } from "./catalog";
+export const nutritionSource =
+  "https://starbucks.ph/docs/CalorieContentandNutriInfoDatabase.pdf";
+export const customizationSource =
+  "https://about.starbucks.com/stories/2025/ways-to-customize-your-beverage-at-starbucks/";
+function modification(
+  id: string,
+  phrase: string,
+  field: Modification["field"],
+  code: string,
+  source: string,
+  extra: Partial<Modification["mark"]> = {},
+): Modification {
+  return {
+    id,
+    phrase,
+    field,
+    source,
+    mark: {
+      code,
+      meaning: lookup(field, code).meaning,
+      reason: phrase,
+      ...extra,
+    },
+  };
+}
+export const modifications: Modification[] = [
+  modification("oat", "with oat milk", "Milk", "O", nutritionSource),
+  modification("soy", "with soy milk", "Milk", "S", nutritionSource),
+  modification("almond", "with almond milk", "Milk", "A", nutritionSource),
+  modification("nonfat", "with nonfat milk", "Milk", "N", nutritionSource),
+  modification(
+    "decaf",
+    "with decaf espresso",
+    "Decaf",
+    "X",
+    customizationSource,
+  ),
+  modification(
+    "double",
+    "with two espresso shots in total",
+    "Shots",
+    "2",
+    customizationSource,
+  ),
+  modification(
+    "triple",
+    "with three espresso shots in total",
+    "Shots",
+    "3",
+    customizationSource,
+  ),
+  modification(
+    "caramel",
+    "with caramel syrup",
+    "Syrup",
+    "C",
+    "FY25 manual, combined Syrup + Drink example",
+  ),
+  modification(
+    "no-whip",
+    "with no whipped cream",
+    "Custom",
+    "WC",
+    nutritionSource,
+    { modifier: "/", placement: "over" },
+  ),
+  modification(
+    "light-whip",
+    "with light whipped cream",
+    "Custom",
+    "WC",
+    customizationSource,
+    { modifier: "Lt", placement: "before" },
+  ),
+];
+const sizes = ["Tall", "Grande", "Venti"];
+const milk = ["oat", "soy", "almond", "nonfat"];
+const espresso = ["decaf", "double", "triple"];
+const whip = ["no-whip", "light-whip"];
+function recipe(
+  id: string,
+  name: string,
+  code: string,
+  category: string,
+  temperatures: Recipe["temperatures"],
+  ingredients: string[],
+  mods: string[],
+  pages: string,
+): Recipe {
+  lookup("Drink", code, category);
+  return {
+    id,
+    name,
+    code,
+    category,
+    temperatures,
+    ingredients,
+    sizes,
+    modifications: mods,
+    source: `${nutritionSource}#page=${pages}`,
+  };
+}
+const hotCold = "Hot and Cold Beverages";
+export const recipes: Recipe[] = [
+  recipe(
+    "latte",
+    "Caffè Latte",
+    "L",
+    hotCold,
+    ["Hot", "Iced"],
+    ["espresso", "milk"],
+    [...milk, ...espresso],
+    "1",
+  ),
+  recipe(
+    "cappuccino",
+    "Cappuccino",
+    "C",
+    hotCold,
+    ["Hot", "Iced"],
+    ["espresso", "milk", "foam"],
+    [...milk, ...espresso],
+    "2",
+  ),
+  recipe(
+    "americano",
+    "Caffè Americano",
+    "A",
+    hotCold,
+    ["Hot", "Iced"],
+    ["espresso", "water"],
+    espresso,
+    "1",
+  ),
+  recipe(
+    "mocha",
+    "Caffè Mocha",
+    "M",
+    hotCold,
+    ["Hot", "Iced"],
+    ["espresso", "milk", "mocha sauce", "whipped cream"],
+    [...milk, ...espresso, ...whip, "caramel"],
+    "6",
+  ),
+  recipe(
+    "white-mocha",
+    "White Chocolate Mocha",
+    "WM",
+    hotCold,
+    ["Hot", "Iced"],
+    ["espresso", "milk", "white mocha sauce", "whipped cream"],
+    [...milk, ...espresso, ...whip],
+    "7",
+  ),
+  recipe(
+    "macchiato",
+    "Caramel Macchiato",
+    "CM",
+    hotCold,
+    ["Hot", "Iced"],
+    ["espresso", "milk", "vanilla", "caramel topping"],
+    [...milk, ...espresso],
+    "4",
+  ),
+  recipe(
+    "cold-brew",
+    "Cold Brew",
+    "CBIC",
+    hotCold,
+    ["Iced"],
+    ["brewed coffee", "ice"],
+    [],
+    "1",
+  ),
+  recipe(
+    "matcha",
+    "Pure Matcha Latte",
+    "PML",
+    hotCold,
+    ["Hot", "Iced"],
+    ["matcha", "milk"],
+    milk,
+    "34",
+  ),
+  recipe(
+    "caramel-frappuccino",
+    "Caramel Coffee Frappuccino",
+    "CRF",
+    "Frappuccino Blended Coffee",
+    ["Blended"],
+    ["coffee", "milk", "ice", "caramel", "whipped cream"],
+    [...milk, ...whip],
+    "23",
+  ),
+  recipe(
+    "mocha-frappuccino",
+    "Mocha Frappuccino",
+    "MF",
+    "Frappuccino Blended Coffee",
+    ["Blended"],
+    ["coffee", "milk", "ice", "mocha", "whipped cream"],
+    [...milk, ...whip],
+    "26",
+  ),
+  recipe(
+    "matcha-frappuccino",
+    "Pure Matcha Cream Frappuccino",
+    "PMCF",
+    "Frappuccino Blended Cream",
+    ["Blended"],
+    ["matcha", "milk", "ice", "whipped cream"],
+    [...milk, ...whip],
+    "14",
+  ),
+  recipe(
+    "pink-drink",
+    "Pink Drink with Strawberry Açaí",
+    "PDR",
+    "Starbucks Refreshers",
+    ["Iced"],
+    ["strawberry açaí", "coconut milk", "strawberry pieces", "ice"],
+    [],
+    "45",
+  ),
+  recipe(
+    "strawberry-lemonade",
+    "Strawberry Açaí with Lemonade",
+    "SAR",
+    "Starbucks Refreshers",
+    ["Iced"],
+    ["strawberry açaí", "lemonade", "strawberry pieces", "ice"],
+    [],
+    "45",
+  ),
+];
